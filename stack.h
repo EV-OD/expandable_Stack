@@ -45,7 +45,6 @@ int isEmpty(Stack *stack){
 void push(Stack *stack, int item){
   if(isFull(stack)){
     increaseCapacity(stack,stack->capacity + 10);
-    return;
   }
   stack->array[++stack->top] = item;
 }
