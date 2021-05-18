@@ -14,8 +14,9 @@ int main(void) {
   push(s,3);
   push(s,5);
   push(s,10);
-  increaseCapacity(s, s->capacity + 10);
   push(s,9);
+  push(s,10);
+
   printStack(s);
   return 0;
 }
